@@ -63,12 +63,10 @@
     <orderEntry type="library" scope="PROVIDED" name="bourbon (v3.2.4, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.9.4, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="byebug (v4.0.2, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.9.1, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.9.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.4.0, rbenv: 2.1.4) [gem]" level="application" />
@@ -82,7 +80,6 @@
     <orderEntry type="library" scope="PROVIDED" name="httparty (v0.8.3, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="inherited_resources (v1.6.0, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="interception (v0.5, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jist (v1.5.1, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.4, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v5.0.3, rbenv: 2.1.4) [gem]" level="application" />
@@ -104,12 +101,7 @@
     <orderEntry type="library" scope="PROVIDED" name="oauth (v0.4.7, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyamorous (v1.1.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-byebug (v3.1.0, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-doc (v0.6.0, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-docmore (v0.1.1, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry-rails (v0.3.3, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-rescue (v1.4.1, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry-stack_explorer (v0.4.9.2, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="quiet_assets (v1.1.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, rbenv: 2.1.4) [gem]" level="application" />
@@ -137,7 +129,6 @@
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.4.0, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.7, rbenv: 2.1.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="yaml_db (v0.2.3@bd632c, rbenv: 2.1.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="yard (v0.8.7.6, rbenv: 2.1.4) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />

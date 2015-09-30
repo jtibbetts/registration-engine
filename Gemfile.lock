@@ -88,8 +88,6 @@ GEM
       sass (~> 3.2)
       thor
     builder (3.2.2)
-    byebug (4.0.2)
-      columnize (= 0.9.0)
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -98,7 +96,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
-    columnize (0.9.0)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.4.0)
@@ -131,7 +128,6 @@ GEM
       has_scope (~> 0.6.0.rc)
       railties (>= 3.2, < 5)
       responders
-    interception (0.5)
     jist (1.5.1)
       json
     jquery-rails (3.0.4)
@@ -168,23 +164,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry-byebug (3.1.0)
-      byebug (~> 4.0)
-      pry (~> 0.10)
-    pry-doc (0.6.0)
-      pry (~> 0.9)
-      yard (~> 0.8)
-    pry-docmore (0.1.1)
-      pry
-      pry-doc
     pry-rails (0.3.3)
       pry (>= 0.9.10)
-    pry-rescue (1.4.1)
-      interception (>= 0.5)
-      pry
-    pry-stack_explorer (0.4.9.2)
-      binding_of_caller (>= 0.7)
-      pry (>= 0.9.11)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -250,7 +231,6 @@ GEM
       json (>= 1.8.0)
     uuid (2.3.7)
       macaddr (~> 1.0)
-    yard (0.8.7.6)
 
 PLATFORMS
   ruby
@@ -275,12 +255,7 @@ DEPENDENCIES
   lti2!
   mysql2 (~> 0.3.13)
   pry
-  pry-byebug
-  pry-doc
-  pry-docmore
   pry-rails
-  pry-rescue
-  pry-stack_explorer
   quiet_assets
   rails (~> 4.1.6)
   ransack

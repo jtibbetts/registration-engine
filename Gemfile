@@ -50,9 +50,9 @@ group :development, :test do
   # ruby 2.1.2, can be replaced with pry-byebug
   gem 'bond'
   gem 'jist'
-  gem 'pry-byebug'
-  gem 'pry-doc'
-  gem 'pry-docmore'
-  gem 'pry-rescue'
-  gem 'pry-stack_explorer'
+  # gem 'pry-byebug'
+  # gem 'pry-doc'
+  # gem 'pry-docmore'
+  # gem 'pry-rescue'
+  # gem 'pry-stack_explorer'
 end

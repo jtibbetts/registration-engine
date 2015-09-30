@@ -2,7 +2,7 @@ development:
   adapter: mysql2
   host: localhost
   encoding: utf8
-  database: tpsampleapp
+  database: registration_engine
   username: ltiuser
   password: ltipswd
   pool: 5
@@ -13,7 +13,7 @@ mysql:
   adapter: mysql2
   host: localhost
   encoding: utf8
-  database: tpsampleapp
+  database: registration_engine
   username: ltiuser
   password: ltipswd
   pool: 5
@@ -30,7 +30,7 @@ test:
   adapter: mysql2
   host: localhost
   encoding: utf8
-  database: tpsampleapp
+  database: registration_engine
   username: ltiuser
   password: ltipswd
   pool: 5
