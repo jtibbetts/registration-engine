@@ -141,7 +141,7 @@ GEM
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    libv8 (3.16.14.7)
+    libv8 (3.16.14.13)
     lrucache (0.1.4)
       PriorityQueue (~> 0.1.2)
     macaddr (1.7.1)
@@ -251,6 +251,7 @@ DEPENDENCIES
   jquery-rails (~> 3.0.4)
   json (~> 1.8.0)
   jsonpath (= 0.5.1)
+  libv8 (= 3.16.14.13)
   lrucache
   lti2!
   mysql2 (~> 0.3.13)
@@ -265,3 +266,6 @@ DEPENDENCIES
   uglifier (~> 2.4.0)
   uuid (~> 2.3.7)
   yaml_db!
+
+BUNDLED WITH
+   1.11.2

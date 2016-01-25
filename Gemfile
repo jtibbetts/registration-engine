@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.4'
+ruby '2.2.2'
 
 gem 'rails', '~> 4.1.6'
 
@@ -30,6 +30,9 @@ gem 'RedCloth', '~> 4.2.9'
 gem 'sass-rails', '~> 4.0.0'
 gem 'yaml_db', github: 'turgu1/yaml_db'
 gem 'uuid', '~> 2.3.7'
+
+# Needed to be installed locally manually before bundle.
+gem 'libv8', '=3.16.14.13'
 
 group :development do
   gem 'coffee-rails', '~> 4.0.0'

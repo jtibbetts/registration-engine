@@ -28,9 +28,9 @@ class LtiRegistrationWipsController < InheritedResources::Base
 
     # show UI here
     tp_base_url = Rails.application.config.tool_provider_registry.registry['tp_deployment_url']
-    lti_tool_provider_base_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
+    lti_tool_provider_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
 
-    redirect_url = "#{lti_tool_provider_base_url}/tool_provider_review" \
+    redirect_url = "#{lti_tool_provider_url}/tool_provider_review" \
                     + "?registration_id=#{registration.id}" \
                     + "&message_type=#{registration.message_type}" \
                     + "&tcp_uri=#{registration.tc_profile_url}" \
@@ -45,8 +45,8 @@ class LtiRegistrationWipsController < InheritedResources::Base
     @registration = Lti2Tp::Registration.find(@lti_registration_wip.registration_id)
 
     # get tool profile from REI_Impl
-    lti_tool_provider_base_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
-    response = HTTParty.get("#{lti_tool_provider_base_url}/tool_profiles?registration_id=#{@registration.id}")
+    lti_tool_provider_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
+    response = HTTParty.get("#{lti_tool_provider_url}/tool_profiles?registration_id=#{@registration.id}")
     @registration.tool_profile_json = response.body
     #REI only
 
@@ -143,8 +143,8 @@ class LtiRegistrationWipsController < InheritedResources::Base
     tp_base_url = Rails.application.config.tool_provider_registry.registry['tp_deployment_url']
     tool_proxy_uri = "#{tp_base_url}/tool_proxies/#{@registration.reg_key}"
     tool_proxy_encoded_uri = URI::escape(tool_proxy_uri)
-    lti_tool_provider_base_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
-    credentials_url = "#{lti_tool_provider_base_url}/change_credentials?" \
+    lti_tool_provider_url = Rails.application.config.tool_provider_registry.registry['lti_tool_provider_url']
+    credentials_url = "#{lti_tool_provider_url}/change_credentials?" \
                             + "registration_id=#{@registration.id}" \
                             + "&final_secret=#{@registration.final_secret}" \
                             + "&tool_proxy_uri=#{tool_proxy_encoded_uri}"
